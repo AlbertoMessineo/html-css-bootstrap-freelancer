@@ -1,0 +1,55 @@
+/***************
+    COMMON 
+ ***************/
+
+ body{
+    overflow-x: hidden;
+}
+.fa-star{
+    position: relative;
+}
+.fa-star::before{
+    width: 10vw;
+    height: 3px;
+    display: inline-block;
+    background-color:aliceblue;
+    
+}
+.fa-star::after{
+    width: 10vw;
+    height: 3px;
+    display: inline-block;
+    background-color:aliceblue;
+}
+
+h5{
+    text-transform: uppercase;
+}
+button{
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    padding: 4px 10px;
+    margin-bottom: 20px;
+
+}
+.download{
+    color: aliceblue;
+    background-color: transparent;
+}
+/* FOOTER ICONS */
+
+.component-icons{
+    display: flex;
+    justify-content: center;
+
+}
+.component-icons .icon-cont{
+    width: 30px;
+    height: 30px;
+    border: 1px solid aliceblue;
+    border-radius: 50%;
+    margin: 5px 8px;
+}
+.white{
+    color: aliceblue;
+}
