@@ -5,21 +5,26 @@
  body{
     overflow-x: hidden;
 }
+
+
+/* component star */
+.component-star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.component-star::after,
+.component-star::before{
+    content: '';
+    height: 0.25rem;
+    background-color: aliceblue;
+    width: 20vh;
+    border-radius: 0.125rem;
+    max-width: 150px;
+}
 .fa-star{
-    position: relative;
-}
-.fa-star::before{
-    width: 10vw;
-    height: 3px;
-    display: inline-block;
-    background-color:aliceblue;
-    
-}
-.fa-star::after{
-    width: 10vw;
-    height: 3px;
-    display: inline-block;
-    background-color:aliceblue;
+    padding: 0 2%;
 }
 
 h5{
@@ -36,6 +41,7 @@ button{
     color: aliceblue;
     background-color: transparent;
 }
+
 /* FOOTER ICONS */
 
 .component-icons{
